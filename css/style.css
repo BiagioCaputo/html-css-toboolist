@@ -5,3 +5,30 @@
     padding:0;
     box-sizing: border-box;
 }
+
+/*Generali*/
+body{
+    background-color: rgb(209, 208, 208);
+}
+h1{
+    display: inline;
+    font-size: 3rem;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+
+
+/*Header*/
+
+#logo_boolean{
+    height: 80px;
+    width: auto;
+    vertical-align: middle;
+    margin-left: 25px;
+    
+}
+
+.logo{
+    background-color: white;
+}
