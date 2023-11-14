@@ -26,6 +26,8 @@ h1{
     margin: 0 auto;
     background-color: white;
     font-size: 20px;
+    margin-bottom: 100px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 ul{
@@ -37,43 +39,57 @@ ul{
 #editorial{
     background-color:dodgerblue;
     color:white;
-    padding: 4px 4px;
-    border-radius: 30%;
+    padding: 4px 6px;
+    border-radius: 25px;
+    font-size: 14px;
 }
 
 #q1-goals{
     background-color:blueviolet;
     color:white;
-    padding: 4px 4px;
-    border-radius: 30%;
+    padding: 4px 6px;
+    border-radius: 25px;
+    font-size: 14px;
 }
 
 #recruiting{
     background-color:aqua;
     color:white;
-    padding: 4px 4px;
-    border-radius: 30%;
+    padding: 4px 6px;
+    border-radius: 25px;
+    font-size: 14px;
 }
 
 #mobile{
     background-color:orange;
     color:white;
-    padding: 4px 4px;
-    border-radius: 30%;
+    padding: 4px 6px;
+    border-radius: 25px;
+    font-size: 14px;
 }
 
 #website{
     background-color:palevioletred;
     color:white;
-    padding: 4px 4px;
-    border-radius: 30%;
+    padding: 4px 6px;
+    border-radius: 25px;
+    font-size: 14px;
 }
 
 #sales{
     background-color:greenyellow;
     color:white;
-    padding: 4px 4px;
-    border-radius: 30%;
+    padding: 4px 6px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+#editorialarancione{
+    background-color:orange;
+    color:white;
+    padding: 4px 6px;
+    border-radius: 25px;
+    font-size: 14px;
 }
 
 
@@ -132,4 +148,5 @@ ul{
     margin-left: 40px;
     padding-top:45px;
     line-height: 3rem;
+    padding-bottom: 10px;
 }
