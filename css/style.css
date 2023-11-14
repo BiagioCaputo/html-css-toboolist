@@ -36,7 +36,7 @@ ul{
 
 /*utilità*/
 
-#editorial{
+.editorial{
     background-color:dodgerblue;
     color:white;
     padding: 4px 6px;
@@ -44,7 +44,7 @@ ul{
     font-size: 14px;
 }
 
-#q1-goals{
+.q1-goals{
     background-color:blueviolet;
     color:white;
     padding: 4px 6px;
@@ -52,7 +52,7 @@ ul{
     font-size: 14px;
 }
 
-#recruiting{
+.recruiting{
     background-color:aqua;
     color:white;
     padding: 4px 6px;
@@ -60,7 +60,7 @@ ul{
     font-size: 14px;
 }
 
-#mobile{
+.mobile{
     background-color:orange;
     color:white;
     padding: 4px 6px;
@@ -68,7 +68,7 @@ ul{
     font-size: 14px;
 }
 
-#website{
+.website{
     background-color:palevioletred;
     color:white;
     padding: 4px 6px;
@@ -76,7 +76,7 @@ ul{
     font-size: 14px;
 }
 
-#sales{
+.sales{
     background-color:greenyellow;
     color:white;
     padding: 4px 6px;
