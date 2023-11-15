@@ -12,14 +12,11 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-h1{
-    display: inline;
-    font-size: 3rem;
-    line-height: 100px;
-    vertical-align: middle;
+ul{
+    list-style-type: none;
 }
 
+/*utilità*/
 
 .container{
     max-width: 820px;
@@ -30,99 +27,53 @@ h1{
     border-radius: 0px 0px 10px 10px;
 }
 
-ul{
-    list-style-type: none;
-}
-
-/*utilità*/
-
-.editorial{
-    background-color:dodgerblue;
-    color:white;
-    padding: 4px 6px;
-    border-radius: 25px;
-    font-size: 14px;
-}
-
-.q1-goals{
-    background-color:blueviolet;
-    color:white;
-    padding: 4px 6px;
-    border-radius: 25px;
-    font-size: 14px;
-}
-
-.recruiting{
-    background-color:aqua;
-    color:white;
-    padding: 4px 6px;
-    border-radius: 25px;
-    font-size: 14px;
-}
-
-.mobile{
-    background-color:orange;
-    color:white;
-    padding: 4px 6px;
-    border-radius: 25px;
-    font-size: 14px;
-}
-
-.website{
-    background-color:palevioletred;
-    color:white;
-    padding: 4px 6px;
-    border-radius: 25px;
-    font-size: 14px;
-}
-
-.sales{
-    background-color:greenyellow;
-    color:white;
-    padding: 4px 6px;
-    border-radius: 25px;
-    font-size: 14px;
-}
-
-#editorialarancione{
-    background-color:orange;
-    color:white;
-    padding: 4px 6px;
-    border-radius: 25px;
-    font-size: 14px;
-}
 
 
 /*Header*/
 
-#logo_boolean{
-    height: 80px;
-    width: auto;
-    vertical-align: middle;
-    margin-left: 25px;
-    
-}
-
 .logo{
     background-color: white;
+    padding-left: 25px;
+    min-height: 100px;
+}
+
+#logo_boolean{
+    height: 70px;
+    width: auto;
+    vertical-align: middle; 
+    margin-top: 15px;
+}
+
+h1{
+    font-size: 38px;
+    font-weight: 900;
+    vertical-align: middle;
+    display: inline;
 }
 
 /*Barra input*/
-#pulsante1{
+
+.btn{
+    padding:5px 10px;
+    border-radius: 5px;
+    border:1px solid transparent;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.btn-primary{
     color: white;
     background-color: dodgerblue;
-    padding:5px 10px;
-    border-radius: 8px;
+    border-color: blue;
 }
 
-#pulsante2{
+.btn-outline{
     color: grey;
     background-color: rgb(233, 233, 243);
-    padding:5px 10px;
-    border-radius: 8px;
+    border-color: gray;
 }
 
-.navigator{
+.head-container{
     border-radius: 5px 5px 0px 0px;
     padding:20px 40px;
     margin-top: 30px;
@@ -131,22 +82,82 @@ ul{
 
 /*Lista main*/
 
-.primalista{
-    margin-left: 40px;
-    padding-top:45px;
-    line-height: 3rem;
-    font-style: arial;
-}
-
-.secondalista{
+.lista-task{
     margin-left: 40px;
     padding-top:45px;
     line-height: 3rem;
 }
 
-.terzalista{
+.lista-today{
+    margin-left: 40px;
+    padding-top:45px;
+    line-height: 3rem;
+}
+
+.lista-upcoming{
     margin-left: 40px;
     padding-top:45px;
     line-height: 3rem;
     padding-bottom: 10px;
+}
+
+/* Badge */
+
+.badge{
+    color:white;
+    font-size: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    vertical-align: middle;
+}
+
+.bg-blue{
+    background-color: dodgerblue;
+}
+
+.bg-purple{
+    background-color: purple;
+}
+
+.bg-green{
+    background-color: lightgreen;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+.bg-brown{
+    background-color: brown;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+
+/*Pseudo Elements */
+
+.task-item::before{
+    border:1px solid currentColor;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 15px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.task-item.done::before{
+    content: "\2713";
+    color:green
+}
+
+.task-item.undone::before{
+    content: "\2A09";
+    color:red
 }

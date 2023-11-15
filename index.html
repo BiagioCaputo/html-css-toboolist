@@ -18,43 +18,65 @@
 
     
         <main>
-            <nav class="navigator container" >
-                <input type="button" value="Add Task" id="pulsante1">
-                <input type="button" value="Add Section" id="pulsante2">
+            <nav class="head-container container">
+                <a class="btn btn-primary">Add Task</a>
+                <button class="btn btn-outline">Add Section</button>
             </nav>
 
             <div class="container">
-                <div class="primalista">
+                <div class="lista-task">
                     <h2>&#9660; New Task</h2>
                     <ul>
-                        <li>&#9989;Quaterly Newsletter <span class="editorial">Editorial</span></li>
+                        <li class="task-item done">
+                            <span>Quaterly Newsletter</span> 
+                            <span class="badge bg-blue">Editorial</span>
+                        </li>
                     </ul>
                 </div>
 
-                <div class="secondalista">
+                <div class="lista-today">
                     <h2>&#9660; Today</h2>
                     <ul>
-                        <li>&#9989;Recruiting blog post <span class="editorial">Editorial</span></li>
-                        <li>&#9989;Mobile app launch <span class="q1-goals">Q1-goals</span></li>
-                        <li>&#10060;Interview John H. <span class="recruiting">Recruiting</span></li>
-                        <li>&#9989;Summit update to mobile storefronts <span class="mobile">Mobile</span></li>
+                        <li class="task-item done">
+                            <span>Recruiting blog post</span> 
+                            <span class="badge bg-blue">Editorial</span>
+                        </li>
+                        <li class="task-item done">
+                            <span>Mobile app launch</span>
+                            <span class="badge bg-purple">Q1-goals</span>
+                        </li>
+                        <li class="task-item undone">
+                            <span>Interview John H.</span>
+                            <span class="badge bg-green">Recruiting</span>
+                        </li>
+                        <li class="task-item done">
+                            <span>Summit update to mobile storefronts</span>
+                            <span class="badge bg-pink">Mobile</span>
+                        </li>
                     </ul>
                 </div>
 
-                <div class="terzalista">
+                <div class="lista-upcoming">
                     <h2>&#9660; Upcoming</h2>
                     <ul>
-                        <li>&#10060;Schedule Meeting with Alex <span class="recruiting">Recruiting</span></li>
-                        <li>&#9989;Homepage refresh <span class="website">Website</span></li>
-                        <li>&#10060;Onboard new Sales team members <span class="sales">Sales</span></li>
-                        <li>&#9989;Review editorial character <span id="editorialarancione">Editorial</span></li>
+                        <li class="task-item undone">
+                            <span>Schedule Meeting with Alex </span>
+                            <span class="badge bg-green">Recruiting</span>
+                        </li>
+                        <li class="task-item done">
+                            <span>Homepage refresh</span>
+                            <span class="badge bg-yellow">Website</span>
+                        </li>
+                        <li class="task-item undone">
+                            <span>Onboard new Sales team members</span>
+                            <span class="badge bg-brown">Sales</span>
+                        </li>
+                        <li class="task-item done">
+                            <span>Review editorial character</span>
+                            <span class="badge bg-orange">Editorial</span>
+                        </li>
                     </ul>
                 </div>
-
-
-
-
-
 
             </div>
 
